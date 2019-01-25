@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   # resources :genres, only: [:index,:new,:create,:update,:show]
   # resources :artists,only: [:index,:new,:create,:update,:show]
   # resources :songs,only: [:index,:create,:new,:update,:show]
- resources :artists, :genres, :songs
+  resources :artists, :genres, :songs
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
